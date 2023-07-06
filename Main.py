@@ -1,5 +1,3 @@
-```jsx
-
 #importo tutte le librerie necessarie
 import tensorflow_hub as hub
 import tensorflow as tf
