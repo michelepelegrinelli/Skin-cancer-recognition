@@ -34,8 +34,7 @@ Collaboratori:
 - Zampou Noufou
 - Negrini Francesco
 
-L'intero progetto sarà disponibile su GitHub per consentire la collaborazione e il miglioramento continuo.
-
+- 
 
 Collaboratori:
 Pelegrinelli Michele,
