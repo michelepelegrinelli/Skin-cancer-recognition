@@ -31,9 +31,12 @@ Test del modello su immagini esterne al dataset
 Fase 4
 Creazione dell' applicazione (prototipo)
 
-Framework
+
 Collaboratori:
 Pelegrinelli Michele,
+
 Valenti Stefano,
+
 Zampou Noufou,
+
 Negrini Francesco
