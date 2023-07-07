@@ -3,7 +3,7 @@ Si propone di sviluppare un modello di machine learning in grado di analizzare i
 
 
 Fase 1
-Informarsi sulle differenze tipologie di tumore della pelle esistenti in modo da capire il contesto specifico
+Informarsi sulle differenti tipologie di tumore della pelle esistenti in modo da capire il contesto specifico
 
 Fase 2
 Raccolta dati
