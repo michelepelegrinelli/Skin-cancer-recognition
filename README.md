@@ -1,36 +1,38 @@
 # Skin-cancer-recognition
-Si propone di sviluppare un modello di machine learning in grado di analizzare immagini relativi a tumori della pelle al fine di determinare se essi sono maligni o benigni.
 
+Si propone lo sviluppo di un modello di machine learning in grado di analizzare immagini relative ai tumori della pelle al fine di determinare se sono maligni o benigni.
 
-Fase 1
-Informarsi sulle differenti tipologie di tumore della pelle esistenti in modo da capire il contesto specifico
+## Fase 1: Informarsi sulle tipologie di tumore della pelle
 
-Fase 2
-Raccolta dati
+In questa fase, ci informeremo sulle diverse tipologie di tumori della pelle per comprendere meglio il contesto specifico e le caratteristiche delle immagini da analizzare.
 
-Raccogliere i dati da fonti attendibili e sicure, noi abbiamo usato la ISIC:
-https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic
+## Fase 2: Raccolta dei dati
 
+Raccoglieremo i dati da fonti attendibili e sicure. Per il nostro progetto, abbiamo utilizzato il dataset della International Skin Imaging Collaboration (ISIC) disponibile su Kaggle. Questo dataset contiene immagini etichettate di tumori della pelle suddivise in tumori maligni e benigni.
 
-Fase 3
-Creazione e addestramento del modello di machine learning:
-Librerie necessarie:
-Tensorflow
-Keras
+## Fase 3: Creazione e addestramento del modello di machine learning
 
-Supporto grazie a MobilenetV2
+Utilizzeremo le librerie TensorFlow e Keras per creare il nostro modello di machine learning. Sfrutteremo l'architettura MobileNetV2 come estrattore di caratteristiche per analizzare le immagini dei tumori della pelle.
 
-Dataset suddiviso in 2 cartelle, una contententi immagini di tumori maligni e una contenenti immagini di tumori benigni
-Creazione dataset di training e di validazione
+Il dataset sarà suddiviso in due cartelle, una contenente le immagini di tumori maligni e una contenente le immagini di tumori benigni. Creeremo un dataset di training e un dataset di validazione per addestrare il modello.
 
-Addestramento del modello (noi abbiamo usato 15 EPOCHS)
+Successivamente, addestreremo il modello utilizzando il dataset di training, eseguendo più epoche di addestramento. Ad esempio, abbiamo utilizzato 15 epoche per addestrare il nostro modello.
 
-Validazione con il dataset di test e tramite le metriche risultanti
+Dopo l'addestramento, valideremo il modello utilizzando il dataset di test e analizzeremo le metriche risultanti, come la perdita (loss) e l'accuratezza (accuracy), per valutare le prestazioni del modello.
 
-Test del modello su immagini esterne al dataset
+Infine, testeremo il modello su immagini esterne al dataset per verificare la sua capacità di generalizzare e fare previsioni accurate su nuovi casi.
 
-Fase 4
-Creazione dell' applicazione (prototipo)
+## Fase 4: Creazione dell'applicazione (prototipo)
+
+Come passo finale, creeremo un'applicazione per fornire un'interfaccia utente intuitiva e interattiva per l'utilizzo del modello di riconoscimento dei tumori della pelle. Questo prototipo dell'applicazione consentirà agli utenti di caricare un'immagine di un tumore della pelle e ottenere una previsione sulla sua natura maligna o benigna.
+
+Collaboratori:
+- Pelegrinelli Michele
+- Valenti Stefano
+- Zampou Noufou
+- Negrini Francesco
+
+L'intero progetto sarà disponibile su GitHub per consentire la collaborazione e il miglioramento continuo.
 
 
 Collaboratori:
