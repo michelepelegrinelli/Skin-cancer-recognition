@@ -1,3 +1,6 @@
+#file per testare il modello e caricare una immagine
+#caricare il modello dalla sua directory
+#modificare il nome dell' immagine da inserire
 import cv2
 import numpy as np
 import tensorflow as tf
