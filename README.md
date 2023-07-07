@@ -2,6 +2,34 @@
 Si propone di sviluppare un modello di machine learning in grado di analizzare immagini relativi a tumori della pelle al fine di determinare se essi sono maligni o benigni.
 
 
+Fase 1
+Informarsi sulle differenze tipologie di tumore della pelle esistenti in modo da capire il contesto specifico
+
+Fase 2
+Raccolta dati
+Raccogliere i dati da fonti attendibili e sicure, noi abbiamo usato la ISIC:
+https://www.kaggle.com/datasets/nodoubttome/skin-cancer
+
+Fase 3
+Creazione e addestramento del modello di machine learning:
+Librerie necessarie:
+Tensorflow
+Keras
+
+Supporto grazie a MobilenetV2
+Dataset suddiviso in 2 cartelle, una contententi immagini di tumori maligni e una contenenti immagini di tumori benigni
+creare dataset di training e di validazione
+
+addestramento del modello (noi abbiamo usato 15 EPOCHS)
+
+validazione con il dataset di test e tramite le metriche risultanti
+
+test del modello su immagini esterne al dataset
+
+Fase 4
+creazione dell' applicazione (prototipo)
+
+Framework
 Collaboratori:
 Pelegrinelli Michele,
 Valenti Stefano,
