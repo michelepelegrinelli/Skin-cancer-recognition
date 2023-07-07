@@ -12,7 +12,6 @@ Raccogliere i dati da fonti attendibili e sicure, noi abbiamo usato la ISIC:
 https://www.kaggle.com/datasets/nodoubttome/skin-cancer
 
 Fase 3
-
 Creazione e addestramento del modello di machine learning:
 Librerie necessarie:
 Tensorflow
