@@ -6,6 +6,8 @@ Si propone lo sviluppo di un modello di machine learning in grado di analizzare 
 
 In questa fase, ci informeremo sulle diverse tipologie di tumori della pelle per comprendere meglio il contesto specifico e le caratteristiche delle immagini da analizzare.
 
+In allegato un approfondimento della natura dei tumori della pelle
+
 ## Fase 2: Raccolta dei dati
 
 Raccoglieremo i dati da fonti attendibili e sicure. Per il nostro progetto, abbiamo utilizzato il dataset della International Skin Imaging Collaboration (ISIC) disponibile su Kaggle. Questo dataset contiene immagini etichettate di tumori della pelle suddivise in tumori maligni e benigni.
