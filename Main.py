@@ -17,13 +17,14 @@ import random
 import cv2
 
 #creo due classi che suddividano il dataset
-train_dir='./Archivio/train'
+train_dir='./Archivio/train'    #da sostituire con la cartella del dataset
 Labels = ['Benign', 'Malignant']
 print ("class : ") 
 for i in range(len(Labels)): 
     print (i, end = " ") 
     print (Labels[i])
 
+#utilizzo il modello preaddestrato mobilenet
 module_selection = ("mobilenet_v2", 224, 1280) 
 handle_base, pixels, FV_SIZE = module_selection
 MODULE_HANDLE ="https://tfhub.dev/google/tf2-preview/{}/feature_vector/2".format(handle_base)
@@ -88,7 +89,7 @@ model.compile(
    loss='categorical_crossentropy',
    metrics=['accuracy'])
 
-EPOCHS=15
+EPOCHS=30 #si puo cambiare
 history = model.fit(
         train_generator,
         steps_per_epoch=train_generator.samples//train_generator.batch_size,
@@ -104,6 +105,8 @@ val_loss = history.history['val_loss']
 
 epochs_range = range(EPOCHS)
 
+
+#stampo i risultati dell' addestramento con le rispettive metriche
 plt.figure(figsize=(10, 4))
 plt.subplot(1, 2, 1)
 plt.plot(epochs_range, acc, label='Training Accuracy')
