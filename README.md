@@ -34,9 +34,6 @@ Creazione dell' applicazione (prototipo)
 
 Collaboratori:
 Pelegrinelli Michele,
-
 Valenti Stefano,
-
 Zampou Noufou,
-
 Negrini Francesco
