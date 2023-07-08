@@ -1,6 +1,6 @@
 # Skin-cancer-recognition
 
-Si propone lo sviluppo di un modello di machine learning in grado di analizzare immagini relative ai tumori della pelle al fine di determinare se sono maligni o benigni.
+Si propone lo sviluppo di un modello di machine learning in grado di analizzare immagini relative ai tumori della pelle al fine di determinare la loro classe in maligna o benigna.
 
 ## Fase 1: Informarsi sulle tipologie di tumore della pelle
 
