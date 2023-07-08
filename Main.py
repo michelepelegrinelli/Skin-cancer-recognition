@@ -148,5 +148,3 @@ for idx, filename in enumerate(images):
 export_path = "./Modello"
 tf.keras.models.save_model(model, export_path)
 export_path
-
-reloaded = tf.keras.models.load_model("./Modello", custom_objects={'KerasLayer':hub.KerasLayer})
