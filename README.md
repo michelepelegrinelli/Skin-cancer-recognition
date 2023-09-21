@@ -2,7 +2,7 @@
 
 Si propone lo sviluppo di un modello di machine learning in grado di analizzare immagini relative ai tumori della pelle al fine di determinare la loro classificazione in maligna o benigna.
 
-## Fase 1: Informarsi sulle tipologie di tumore della pelle
+## Fase 1: Informarsi sul capo di studio
 
 In questa fase, ci informeremo sulle diverse tipologie di tumori della pelle per comprendere meglio il contesto specifico e le caratteristiche delle immagini da analizzare.
 
